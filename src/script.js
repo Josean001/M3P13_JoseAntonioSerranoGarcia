@@ -22,7 +22,7 @@ function secondLastLink() {
 function countTwitterLinks() {
   const links = document.querySelectorAll("a");
   const twitterLinks = Array.from(links).filter(
-    (link) => link.href === "https://www.twitter.com"
+    (link) => link.href === "https://www.twitter.com/"
   );
   document.getElementById(
     "result"
